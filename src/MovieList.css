@@ -1,0 +1,90 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.sort-buttons {
+    margin-bottom: 20px;
+}
+
+.sort-buttons button {
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.sort-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.movie-list {
+    list-style: none;
+    padding: 0;
+}
+
+.movie-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.movie-title {
+    flex-grow: 1;
+}
+
+.movie-actions {
+    display: flex;
+    align-items: center;
+}
+
+.movie-actions img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.star {
+    width: 20px;
+    height: auto;
+}
+
+.delete-movie-icon {
+    width: 30px;
+    height: auto;
+}
